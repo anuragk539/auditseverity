@@ -3,5 +3,5 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:269721309720:task-definition/auditauth:2"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:269721309720:task-definition/auditseverity:4"
         PlatformVersion: "LATEST"
