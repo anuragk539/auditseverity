@@ -5,3 +5,7 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:ap-south-1:269721309720:task-definition/auditseverity:4"
         PlatformVersion: "LATEST"
+      LoadBalancerInfo:
+         ContainerName: "auditseverity"
+         ContainerPort: "8000"
+       
